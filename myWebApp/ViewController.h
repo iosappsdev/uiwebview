@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SVProgressHUD.h"
+#import "AHKActionSheet.h"
 
-@interface ViewController : UIViewController
+
+@interface ViewController : UIViewController<UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webView;
+- (IBAction)openMenu:(id)sender;
 
 @end

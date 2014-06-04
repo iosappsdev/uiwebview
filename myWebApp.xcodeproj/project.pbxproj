@@ -21,6 +21,13 @@
 		9BEB20C519382E4B00B638C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BEB20A719382E4B00B638C5 /* UIKit.framework */; };
 		9BEB20CD19382E4B00B638C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9BEB20CB19382E4B00B638C5 /* InfoPlist.strings */; };
 		9BEB20CF19382E4B00B638C5 /* myWebAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB20CE19382E4B00B638C5 /* myWebAppTests.m */; };
+		9BEB20D91938328D00B638C5 /* sample.html in Resources */ = {isa = PBXBuildFile; fileRef = 9BEB20D81938328D00B638C5 /* sample.html */; };
+		9BEB20DF1938339C00B638C5 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BEB20DC1938339C00B638C5 /* SVProgressHUD.bundle */; };
+		9BEB20E01938339C00B638C5 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB20DE1938339C00B638C5 /* SVProgressHUD.m */; };
+		9BEB20EA1938375D00B638C5 /* AHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB20E31938375D00B638C5 /* AHKActionSheet.m */; };
+		9BEB20EB1938375D00B638C5 /* AHKActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB20E51938375D00B638C5 /* AHKActionSheetViewController.m */; };
+		9BEB20EC1938375D00B638C5 /* UIImage+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB20E71938375D00B638C5 /* UIImage+AHKAdditions.m */; };
+		9BEB20ED1938375D00B638C5 /* UIWindow+AHKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEB20E91938375D00B638C5 /* UIWindow+AHKAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,19 @@
 		9BEB20CA19382E4B00B638C5 /* myWebAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myWebAppTests-Info.plist"; sourceTree = "<group>"; };
 		9BEB20CC19382E4B00B638C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9BEB20CE19382E4B00B638C5 /* myWebAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myWebAppTests.m; sourceTree = "<group>"; };
+		9BEB20D81938328D00B638C5 /* sample.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sample.html; sourceTree = "<group>"; };
+		9BEB20DB1938339C00B638C5 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		9BEB20DC1938339C00B638C5 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		9BEB20DD1938339C00B638C5 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		9BEB20DE1938339C00B638C5 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		9BEB20E21938375D00B638C5 /* AHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHKActionSheet.h; sourceTree = "<group>"; };
+		9BEB20E31938375D00B638C5 /* AHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHKActionSheet.m; sourceTree = "<group>"; };
+		9BEB20E41938375D00B638C5 /* AHKActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHKActionSheetViewController.h; sourceTree = "<group>"; };
+		9BEB20E51938375D00B638C5 /* AHKActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHKActionSheetViewController.m; sourceTree = "<group>"; };
+		9BEB20E61938375D00B638C5 /* UIImage+AHKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AHKAdditions.h"; sourceTree = "<group>"; };
+		9BEB20E71938375D00B638C5 /* UIImage+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AHKAdditions.m"; sourceTree = "<group>"; };
+		9BEB20E81938375D00B638C5 /* UIWindow+AHKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+AHKAdditions.h"; sourceTree = "<group>"; };
+		9BEB20E91938375D00B638C5 /* UIWindow+AHKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+AHKAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +132,9 @@
 		9BEB20A919382E4B00B638C5 /* myWebApp */ = {
 			isa = PBXGroup;
 			children = (
+				9BEB20E11938375D00B638C5 /* AHKActionSheet */,
+				9BEB20DA1938339C00B638C5 /* SVProgressHUD */,
+				9BEB20D81938328D00B638C5 /* sample.html */,
 				9BEB20B219382E4B00B638C5 /* AppDelegate.h */,
 				9BEB20B319382E4B00B638C5 /* AppDelegate.m */,
 				9BEB20B519382E4B00B638C5 /* Main.storyboard */,
@@ -150,6 +173,33 @@
 				9BEB20CB19382E4B00B638C5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9BEB20DA1938339C00B638C5 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				9BEB20DB1938339C00B638C5 /* SVProgressHUD-Prefix.pch */,
+				9BEB20DC1938339C00B638C5 /* SVProgressHUD.bundle */,
+				9BEB20DD1938339C00B638C5 /* SVProgressHUD.h */,
+				9BEB20DE1938339C00B638C5 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		9BEB20E11938375D00B638C5 /* AHKActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				9BEB20E21938375D00B638C5 /* AHKActionSheet.h */,
+				9BEB20E31938375D00B638C5 /* AHKActionSheet.m */,
+				9BEB20E41938375D00B638C5 /* AHKActionSheetViewController.h */,
+				9BEB20E51938375D00B638C5 /* AHKActionSheetViewController.m */,
+				9BEB20E61938375D00B638C5 /* UIImage+AHKAdditions.h */,
+				9BEB20E71938375D00B638C5 /* UIImage+AHKAdditions.m */,
+				9BEB20E81938375D00B638C5 /* UIWindow+AHKAdditions.h */,
+				9BEB20E91938375D00B638C5 /* UIWindow+AHKAdditions.m */,
+			);
+			name = AHKActionSheet;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +278,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BEB20DF1938339C00B638C5 /* SVProgressHUD.bundle in Resources */,
+				9BEB20D91938328D00B638C5 /* sample.html in Resources */,
 				9BEB20BC19382E4B00B638C5 /* Images.xcassets in Resources */,
 				9BEB20AE19382E4B00B638C5 /* InfoPlist.strings in Resources */,
 				9BEB20B719382E4B00B638C5 /* Main.storyboard in Resources */,
@@ -250,7 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BEB20BA19382E4B00B638C5 /* ViewController.m in Sources */,
+				9BEB20E01938339C00B638C5 /* SVProgressHUD.m in Sources */,
 				9BEB20B419382E4B00B638C5 /* AppDelegate.m in Sources */,
+				9BEB20EB1938375D00B638C5 /* AHKActionSheetViewController.m in Sources */,
+				9BEB20EC1938375D00B638C5 /* UIImage+AHKAdditions.m in Sources */,
+				9BEB20EA1938375D00B638C5 /* AHKActionSheet.m in Sources */,
+				9BEB20ED1938375D00B638C5 /* UIWindow+AHKAdditions.m in Sources */,
 				9BEB20B019382E4B00B638C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
